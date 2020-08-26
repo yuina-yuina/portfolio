@@ -1,0 +1,156 @@
+body{
+    background-color: #bfe673;
+    color: #808080;
+}
+
+h2{
+    padding: 20px;
+    text-align: center;
+}
+
+form{
+    margin-left: auto;	
+    margin-right: auto;
+    text-align: center;
+}
+
+.sub{
+    display: inline-block;
+    text-align: left;
+}
+
+label{
+    display: inline-block;
+    padding: 10px 0;
+}
+
+.name,.message{
+    font-size: 20px;
+}
+
+.name{
+    width: 500px;
+    height: 50px;
+}
+
+.message{
+    width: 1000px;
+    height: 120px;
+}
+
+.button {
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px 25px;
+    background: #e66b2e;
+    color: #ffffff;
+    transition: .3s;
+    border-style: none;
+}
+
+.button:hover {
+    color: #6495ed;
+    background: #ffffff;
+}
+
+.a{
+    margin-left: auto;	
+    margin-right: auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+.back{
+    display: inline-block;
+    width: 1000px;
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    text-align: left;
+}
+
+.dis{
+    cursor: pointer;
+    color: #6495ed;
+    transition: .3s;
+}
+
+.dis:hover {
+    color: #6495ed;
+    background: #ffffff;
+}
+
+hr{
+    width: 1000px;
+}
+
+label{
+    font-size: 20px;
+}
+
+.red{
+    color: red;
+}
+
+#modal-content{
+	z-index: 2;
+	/*divをブロック表示します。何も表示しないときは、none*/
+	display: block;
+    position: fixed;
+	/* 位置 */
+    top: 0;
+    left: calc(50% - 180px);
+    padding: 60px 110px;
+	/* 外側の余白 */
+	margin: 0 auto;
+	border: 1px solid #808080;
+}
+
+.ok{
+    background-color: #ffffe0;
+}
+
+.ng{
+    background-color: #edbebe;
+}
+
+.text{
+    font-size: 20px;
+    display: table-cell;
+    vertical-align: middle;
+    width: inherit;
+    height: inherit;
+    text-align: center;
+}
+
+.close{
+    font-size: 45px;
+    position: absolute;
+    top: -55px;
+    right: 10px;
+}
+
+span::before,
+span::after {
+    display: block;
+    content: "";
+    width: 30px;
+    height: 1px;
+    background: #808080;
+    position: absolute;
+    top: 30px;
+    left: -25px;
+    z-index: 3;
+}
+span::before {
+	transform: rotate(-45deg);
+}
+span::after {
+	transform: rotate(45deg);
+}
+
+.n{
+    font-weight: bold;
+}
