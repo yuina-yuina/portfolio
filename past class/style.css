@@ -1,0 +1,41 @@
+body {
+
+	margin-left: auto;	
+	margin-right: auto;	
+	width:73rem;
+}
+
+.p1{
+	background-color:#fc9;
+}
+
+.p2{
+	background-color:#cf9;
+}
+
+.p3{
+	background-color:#9cf;
+}
+
+.todo{
+	background-color: yellow;
+}
+
+
+
+form.a{
+	margin: 0.5rem;
+	padding: 1rem;
+	background:#eef;
+	line-height:1.8rem;
+}
+
+tr:nth-child(odd) {
+	background:#cfc;
+}
+tr:nth-child(even) {
+	background:#ccf;
+}
+th{
+	background:#fff;
+}
