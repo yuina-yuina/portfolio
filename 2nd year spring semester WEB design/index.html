@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>同女生の中身</title>
+<link href="top.css" rel="stylesheet" type="text/css">
+<link href="slick.css" rel="stylesheet" type="text/css">
+<link href="slick-theme.css" rel="stylesheet" type="text/css">
+
+<style>
+/*スライドの幅を指定しましょう*/
+.slide{
+	width: 100%;
+	margin: 0 0;
+	height: 100%;
+}
+</style>
+</head>
+
+<body>
+	
+<div class="center"><div class="slide">
+	<div></div>
+	<div><a href="yuina.html"><img src="tokimeki.png" alt="ときめき"></a></div>
+	<div><a href="hikaru.html"><img src="osyare.png" alt="オシャレ"></a></div>
+	<div><a href="hibiki.html"><img src="osyarena.png" alt="オシャレな"></a></div>
+</div></div>
+	
+<!--以下ひとまとまりを、bodyタグ閉じる直前に追加する-->
+<!--jQueryへのリンク-->
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script> 	
+<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script> 
+
+<!--スライド用プラグインへのリンク-->
+<script type="text/javascript" src="slick.min.js"></script> 
+
+<!--スライド用設定 ここから-->
+<script type="text/javascript">
+    $(document).ready(function(){
+      $('.slide').slick({
+       dots: true, /*下部ドット なしの場合はfalseと書く*/
+       infinite: true, /*無限スクロール*/
+       slidesToShow: 1,
+	   autoplay: true,　/*自動再生*/
+	   autoplaySpeed: 1000, /*自動再生速度 1000が1秒です*/
+	   speed: 1000, /*めくる速度*/
+		/*その他足したければここに書き足す*/
+      });
+    });
+  </script>
+<!--スライド用設定 ここまで--> 
+
+	<div id="fix-phone-under-menu" class="pc-none">
+  <ul>
+    <li><a href="yuina.html">make up</a></li>
+	<li><a href="hikaru.html">accessary</a></li>
+	<li><a href="hibiki.html">necessities</a></li>
+  </ul>
+</div>
+</body>
+</html>

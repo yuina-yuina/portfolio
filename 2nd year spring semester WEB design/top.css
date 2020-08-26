@@ -1,0 +1,58 @@
+@charset "UTF-8";
+.center {
+	text-align: center;
+}
+body a img {
+	opacity: 0.8;
+	width: 100%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	left: auto;
+	right: auto;
+}
+body{
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+}
+ul {
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  padding: 0 10px;
+}
+#fix-phone-under-menu{
+  position: fixed;
+  width: 100%;
+  bottom: 30px;
+  font-size: 0;
+  opacity: 0.7;
+  z-index: 0;
+}
+
+#fix-phone-under-menu li{
+  display: inline-block;
+  width: 31%;
+  font-size: 25px;
+  border-right:0 ;
+}
+
+#fix-phone-under-menu li a{
+  color: #545454;
+  background: #ffff;
+  width: 31%;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  height: 60px;
+}	
+body{
+    background-image    : url("nakami1.png");
+    background-repeat   : no-repeat;
+    background-position : center center;
+}
+a {
+text-decoration: none;
+}

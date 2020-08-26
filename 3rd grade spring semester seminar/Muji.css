@@ -1,0 +1,509 @@
+@charset "UTF-8";
+
+body{
+    scroll-behavior: smooth;
+}
+
+.set{
+    height: 700px;
+}
+
+.go-top{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 27px;
+    margin-bottom: 23px;    
+  
+}
+
+.go-top a{
+    line-height: 60px;
+    display: inline-block;
+    width: 100%;
+}
+
+.go-top svg{
+    padding: 18px 0;
+}
+
+#page_top{
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background: #3f98ef;
+  opacity: 0.6;
+}
+#page_top a{
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+}
+#page_top a::before{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f102';
+  font-size: 25px;
+  color: #fff;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+
+.toptext {
+    width: 500px;/*適宜調節お願いします*/
+    height: 100px;/*適宜調節お願いします*/
+    text-align: left;
+    color: ;
+    margin-left: 460px;
+    margin-top: -130px;/*適宜調節お願いします*/
+    float: right;
+    margin-right: 100px;
+	color:whitesmoke;
+}
+
+img {
+  pointer-events: none; 
+}
+
+.top {
+    background-color: #822433;
+    height: 600px;
+    margin-bottom: -20px;
+}
+
+.flex_test-box {
+    display: flex;
+    /* 余白指定 */
+    justify-content: space-around;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.flex_test-item {
+    position: relative;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #888888;
+    color: whitesmoke;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all  0.3s ease;
+}
+
+.flex_test-item:hover {
+    background-color: #ECECEC;
+    }
+
+.flex_baumbox {
+    margin: 30px;
+    width: 250px;
+    height: 500px;
+    justify-content:space-around;
+}
+ 
+.flex_test-item {
+    padding: 10px;
+    color: #fff;               /* 文字色 */
+    margin-top: 37px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;              /* 外側の余白 */
+    border-radius: 150px;        /* 角丸指定 */
+}
+
+a {
+  color:whitesmoke;
+  text-decoration: none;
+}
+a:hover { color: #888888;}
+
+/* 詳細のcssをそのまま貼ってます */
+
+.baum{
+	float: left;
+	text-align: center;
+	width: 250px;
+	height: 500px;
+}
+
+/* ポップアップウインドウの設定 */
+.popup {
+    text-align: left;
+	background-color: rgba(255, 255, 255, .8);
+	box-shadow: 0 0 0 9999px rgba(238, 232, 170, .5);
+	padding-right: 100px;
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	width: 90vw;
+	height: 800px;
+	overflow-y: scroll;
+	color: #686868;
+}
+
+/* チェックボックスの初期設定 */
+input{
+  display: none;
+}
+
+/* チェックされたらポップアップウインドウを開く */
+#popup-on:checked + .popup{
+  display: block;
+}
+#popup-on2:checked + #popup2{
+  display: block;
+}
+#popup-on3:checked + #popup3{
+  display: block;
+}
+#popup-on4:checked + #popup4{
+  display: block;
+}
+#popup-on5:checked + #popup5{
+  display: block;
+}
+#popup-on6:checked + #popup6{
+  display: block;
+}
+#popup-on7:checked + #popup7{
+  display: block;
+}
+#popup-on8:checked + #popup8{
+  display: block;
+}
+#popup-on9:checked + #popup9{
+  display: block;
+}
+#popup-on10:checked + #popup10{
+  display: block;
+}
+#popup-on11:checked + #popup11{
+  display: block;
+}
+#popup-on12:checked + #popup12{
+  display: block;
+}
+#popup-on13:checked + #popup13{
+  display: block;
+}
+#popup-on14:checked + #popup14{
+  display: block;
+}
+#popup-on15:checked + #popup15{
+  display: block;
+}
+#popup-on16:checked + #popup16{
+  display: block;
+}
+#popup-on17:checked + #popup17{
+  display: block;
+}
+#popup-on18:checked + #popup18{
+  display: block;
+}
+#popup-on19:checked + #popup19{
+  display: block;
+}
+#popup-on20:checked + #popup20{
+  display: block;
+}
+#popup-on21:checked + #popup21{
+  display: block;
+}
+#popup-on22:checked + #popup22{
+  display: block;
+}
+#popup-on23:checked + #popup23{
+  display: block;
+}
+#popup-on24:checked + #popup24{
+  display: block;
+}
+#popup-on25:checked + #popup25{
+  display: block;
+}
+#popup-on26:checked + #popup26{
+  display: block;
+}
+
+
+/*閉じるアイコン（右上）*/
+.icon-close{
+  background: #000;
+  color: #fff;
+  font-size: 30px;
+  padding: 0 10px;
+  position: absolute;
+ top:400px;
+  
+}
+
+/* 閉じるボタン */
+.btn-close{
+    font-size: 50px;
+	color:  #822433;
+	padding: 10px;
+	cursor: pointer;
+	width: 50px;
+	position: absolute;
+	right: 10px;
+	top: 5px;
+}
+
+
+/* 開くボタン */
+.btn-open{
+    background-color: #FFFFFF;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    width: 260px;
+    height: 510px;
+    float: left;
+}
+.btn-open2{
+    background-color: #FFFFFF;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    width: 260px;
+    height: 510px;
+    float: left;
+}
+.btn-open3{
+    background-color: #FFFFFF;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    width: 260px;
+    height: 510px;
+    float: left;
+}
+.btn-open4{
+    background-color: #FFFFFF;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    width: 260px;
+    height: 510px;
+    float: left;
+}
+.btn-open5{
+    background-color: #FFFFFF;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    width: 260px;
+    height: 510px;
+    float: left;
+}
+.btn-open6{
+    background-color: #FFFFFF;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    width: 260px;
+    height: 510px;
+    float: left;
+}
+.btn-open7{
+    background-color: #FFFFFF;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    width: 260px;
+    height: 510px;
+    float: left;
+}
+.btn-open8{
+    background-color: #FFFFFF;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    width: 260px;
+    height: 510px;
+    float: left;
+}
+.btn-open9{
+    background-color: #FFFFFF;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    width: 260px;
+    height: 510px;
+    float: left;
+}
+.btn-open10{
+    background-color: #FFFFFF;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    width: 260px;
+    height: 510px;
+    float: left;
+}
+.btn-open11{
+    background-color: #FFFFFF;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    width: 260px;
+    height: 510px;
+    float: left;
+}
+.btn-open12{
+    background-color: #FFFFFF;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    width: 260px;
+    height: 510px;
+    float: left;
+}
+.btn-open13{
+    background-color: #FFFFFF;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    width: 260px;
+    height: 510px;
+    float: left;
+}
+.btn-open14{
+    background-color: #FFFFFF;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    width: 260px;
+    height: 510px;
+    float: left;
+}
+.btn-open15{
+    background-color: #FFFFFF;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    width: 260px;
+    height: 510px;
+    float: left;
+}
+.btn-open16{
+    background-color: #FFFFFF;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    width: 260px;
+    height: 510px;
+    float: left;
+}
+.btn-open17{
+    background-color: #FFFFFF;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    width: 260px;
+    height: 510px;
+    float: left;
+}
+.btn-open18{
+    background-color: #FFFFFF;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    width: 260px;
+    height: 510px;
+    float: left;
+}
+.btn-open19{
+    background-color: #FFFFFF;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    width: 260px;
+    height: 510px;
+    float: left;
+
+}
+.btn-open20{
+    background-color: #FFFFFF;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    width: 260px;
+    height: 510px;
+    float: left;
+}
+.btn-open21{
+    background-color: #FFFFFF;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    width: 260px;
+    height: 510px;
+    float: left;
+}
+.btn-open22{
+    background-color: #FFFFFF;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    width: 260px;
+    height: 510px;
+    float: left;
+}
+.btn-open23{
+    background-color: #FFFFFF;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    width: 260px;
+    height: 510px;
+    float: left;
+}
+.btn-open24{
+    background-color: #FFFFFF;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    width: 260px;
+    height: 510px;
+    float: left;
+
+}
+.btn-open25{
+    background-color: #FFFFFF;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    width: 260px;
+    height: 510px;
+    float: left;
+}
+.btn-open26{
+    background-color: #FFFFFF;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    width: 260px;
+    height: 510px;
+    float: left;
+}
